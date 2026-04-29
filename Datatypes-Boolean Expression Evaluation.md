@@ -15,7 +15,35 @@ To write a Python program that evaluates and prints the results of boolean and a
 8. Print the value of `d` with the label "d:".
 
 ## 💻 Program
-Add Code here
+
+print("Boolean Expressions:")
+print("True and False =", True and False)
+print("True or False =", True or False)
+print("not True =", not True)
+print("not False =", not False)
+
+print("\nArithmetic Expressions:")
+print("True + True =", True + True)
+print("True - False =", True - False)
+print("False * True =", False * True)
+print("True * 10 =", True * 10)
+print("False + 5 =", False + 5)
 
 ## Output
+
+Boolean Expressions:
+True and False = False
+True or False = True
+not True = False
+not False = True
+
+Arithmetic Expressions:
+True + True = 2
+True - False = 1
+False * True = 0
+True * 10 = 10
+False + 5 = 5
+
 ## Result
+
+The program executed successfully and showed that boolean values True and False behave as 1 and 0 respectively in arithmetic operations, while logical operations return boolean results.
